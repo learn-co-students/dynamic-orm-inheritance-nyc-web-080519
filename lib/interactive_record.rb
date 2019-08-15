@@ -1,6 +1,9 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
+# super class
+# contains almost all of the code 
+# responsible for communicating between our Ruby program and our database.
 class InteractiveRecord
 
   def self.table_name
